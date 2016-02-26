@@ -4,7 +4,7 @@
   "email": "richcssa4@gmail.com",
   "description": "Turns background color to red",
   "version": "1.0.0",
-  "homepage": "GITHUB_REPO_URL",
+  "homepage": "https://github.com/fdp-A4/demo_red_bg",
   "dependencies": {
   }
 }
