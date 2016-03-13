@@ -1,0 +1,41 @@
+
+.about, .contact {
+  padding: 150px 0;
+}
+
+.services p {
+  margin: 15px 0 0;
+}
+
+.about .one-third {
+  margin-top: 20px;
+}
+
+.about a {
+  margin-top: 10px;
+}
+
+.about ul {
+  margin-bottom:18px;
+}
+
+.about .bottom {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.about .one-third a {
+  margin: 10px auto;
+  width: 50%;
+  display: block;
+} 
+
+.about .two-thirds p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 550px) {
+  .about .one-third {
+    margin-top: 0;
+  }
+}

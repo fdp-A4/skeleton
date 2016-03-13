@@ -1,0 +1,5 @@
+.about .one-third, 
+.about .two-thirds {
+  background: white;
+  background: rgba(255,255,255,.3);
+}

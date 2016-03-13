@@ -1,0 +1,43 @@
+nav ul, .contact ul {
+  list-style: none;
+  font-size: 0;
+}
+
+nav li, .contact li {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+nav li {
+  width: 50%;
+}
+
+
+
+nav li:nth-child(2n+1) a:after {
+  position: absolute;
+  content: '';
+  top: 19.5px;
+  right: -2.5px;
+  z-index: 10;
+  border-radius: 100%;
+  background: steelblue;
+  width: 5px;
+  height: 5px;
+}
+
+@media (min-width: 550px) {
+
+  nav li {
+    width: auto;
+  }
+
+  nav li:nth-child(2n+1) a:after {
+    content: none;
+  }
+
+  nav li:last-child a {
+    border-right: none;
+  }
+
+}
